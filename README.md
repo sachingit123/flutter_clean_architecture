@@ -88,7 +88,7 @@ Reusable widgets that are shared across various parts of the application.
 Clone the repository and install dependencies.
 
 ```bash
-git clone https://github.com/DeepakStark123/flutter_clean_architecture_with_bloc
+git clone https://github.com/sachingit123/flutter_clean_architecture.git
 cd ecom
 flutter clean
 flutter pub get
