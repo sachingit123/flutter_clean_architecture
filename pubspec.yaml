@@ -1,0 +1,50 @@
+name: ecom
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  #basic
+  flutter_bloc:
+  equatable: ^2.0.5
+  either_dart: ^1.0.0
+  get_it: ^8.0.1
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+  #extra
+  email_validator: ^3.0.0
+  internet_connection_checker_plus: ^2.5.2
+  flutter_svg: ^2.0.10+1
+  intl: ^0.19.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/vectors/
+    - assets/images/
+
+  fonts:
+    - family: CircularStd
+      fonts:
+        - asset: assets/fonts/CircularStd-Black.ttf
+          weight: 800
+        - asset: assets/fonts/CircularStd-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/CircularStd-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/CircularStd-Regular.ttf
+          weight: 400
